@@ -23,8 +23,11 @@ function Navbar() {
             <div className="w-full flex justify-end items-center space-x-6">
                 <div className="flex justify-center items-center space-x-6 bg-black/5 rounded-full">
                     <div className="pl-4"><BsSearch size="20" /></div>
-                    <input type="text"
-                        className='h-10 bg-transparent'
+                    <input
+                        type="text"
+                        className='outline-none w-full h-10 bg-transparent ml-2 caret-blue-500 placeholder:font-light placeholder:text-gray-600 text-[15px]'
+                        placeholder='Search'
+                        autoComplete='false'
                     />
                 </div>
                 <div className="flex justify-center items-center space-x-6">
